@@ -1,6 +1,6 @@
+using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Threading;
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -10,6 +10,14 @@ public class HudManager : MonoBehaviour
 {
     public Slider Barra_Progreso;
     public TextMeshProUGUI Texto_Progreso;
+
+    public Image[] WASD = new Image[4];
+    public Image[] Flechas = new Image[4];
+
+    public void Start()
+    {
+        DOTween.Init();
+    }
 
     public void Salir()
     {
@@ -32,5 +40,12 @@ public class HudManager : MonoBehaviour
             Texto_Progreso.text = "Cargando " + (progress * 100f) + "%";
         }
         yield return new WaitForSeconds(2f);
+    }
+
+    public void StartTutorial()
+    {
+        Sequence Tutorial = DOTween.Sequence();
+        Color Color_Tutorial = new Color(200, 200, 200);
+        Tutorial.Append(WASD[0].DOColor(Color_Tutorial, 2f)).Join(Flechas[0].DOColor(Color_Tutorial, 2f));
     }
 }
