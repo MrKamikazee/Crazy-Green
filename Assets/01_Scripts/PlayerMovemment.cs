@@ -17,14 +17,19 @@ public class PlayerMovemment : MonoBehaviour
     private float MouseX;
     private float MouseY;
 
+    [SerializeField]
+    private GameObject Cameras_TP;
+
     private void Awake()
     {
         Player_CC = GetComponent<CharacterController>();
-        Piso = GameObject.FindWithTag("Floor");
     }
 
     private void Start()
     {
+        Piso = GameObject.FindWithTag("Floor");
+        Cameras_TP = GameObject.FindWithTag("Cameras");
+        Cameras_TP.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked; //Bloquea el cursor dentro de los limites del juego
     }
 
@@ -32,6 +37,7 @@ public class PlayerMovemment : MonoBehaviour
     {
         PlayerMove();
         CameraController();
+        ChangeCamera();
     }
 
     private void PlayerMove()
@@ -87,5 +93,13 @@ public class PlayerMovemment : MonoBehaviour
         yRotation = Mathf.Clamp(yRotation, -90, 90);
         transform.localRotation = Quaternion.Euler(yRotation, xRotation, 0);
         transform.Rotate(Vector3.up * MouseX);
+    }
+
+    private void ChangeCamera()
+    {
+        if (Input.GetKeyUp(KeyCode.C) && Cameras_TP.activeSelf)
+            Cameras_TP.SetActive(false);
+        else if(Input.GetKeyUp(KeyCode.C) && !Cameras_TP.activeSelf)
+            Cameras_TP.SetActive(true);
     }
 }
