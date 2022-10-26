@@ -12,16 +12,43 @@ public class PlayerMovemment : MonoBehaviour
     private bool IsGrounded;
     private Vector3 Direccion = new Vector3();
 
+    private float xRotation = 0;
+    private float yRotation = 0;
+    private float MouseX;
+    private float MouseY;
+
     private void Awake()
     {
         Player_CC = GetComponent<CharacterController>();
         Piso = GameObject.FindWithTag("Floor");
     }
 
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked; //Bloquea el cursor dentro de los limites del juego
+    }
+
     private void Update()
     {
-        Direccion.x = Input.GetAxis("Horizontal") * Speed.x;
-        Direccion.z = Input.GetAxis("Vertical") * Speed.x;
+        PlayerMove();
+        CameraController();
+    }
+
+    private void PlayerMove()
+    {
+        Direccion.z = Input.GetAxis("Horizontal") * Speed.x;
+        Direccion.x = Input.GetAxis("Vertical") * Speed.x;
+        
+        Vector3 forward = Camera.main.transform.forward;
+        Vector3 right = Camera.main.transform.right;
+
+        Vector3 forwardRelativeVerticalInput = Direccion.x * forward;
+        Vector3 rightRelativeVerticalInput = Direccion.z * right;
+
+        Vector3 cameraRelativeDirection = forwardRelativeVerticalInput + rightRelativeVerticalInput;
+
+        Direccion.x = cameraRelativeDirection.x;
+        Direccion.z = cameraRelativeDirection.z;
         
         CheckGrounded();
         
@@ -35,9 +62,10 @@ public class PlayerMovemment : MonoBehaviour
 
         if (Direccion.y > 20)
             Direccion.y = 20;
+
         Player_CC.Move(Direccion * Time.deltaTime);
     }
-
+    
     private void CheckGrounded()
     {
         RaycastHit hit;
@@ -48,5 +76,16 @@ public class PlayerMovemment : MonoBehaviour
         {
             IsGrounded = Piso.CompareTag("Floor") ? true : false;
         }
+    }
+
+    private void CameraController()
+    {
+        MouseX = Input.GetAxis("Mouse X") * GameManager.GameManager_Script.Sensivility * Time.deltaTime * 100;
+        MouseY = Input.GetAxis("Mouse Y") * GameManager.GameManager_Script.Sensivility * Time.deltaTime * 100;
+        yRotation -= MouseY;
+        xRotation += MouseX;
+        yRotation = Mathf.Clamp(yRotation, -90, 90);
+        transform.localRotation = Quaternion.Euler(yRotation, xRotation, 0);
+        transform.Rotate(Vector3.up * MouseX);
     }
 }
