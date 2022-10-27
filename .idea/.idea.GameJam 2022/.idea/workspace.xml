@@ -3,15 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="21fcd78e-3460-4934-b91e-925b855f6292" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam 2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam 2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00_Scenes/Menu Inicial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00_Scenes/Menu Inicial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_Scripts/HudManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scripts/HudManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/Hud_Materials/Botones Tutorial.ai" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Asstets/Hud_Materials/Botones Tutorial.ai" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/Hud_Materials/Tutorial.mp4.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Asstets/Hud_Materials/Tutorial.mp4.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00_Scenes/Escena Principal.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00_Scenes/Escena Principal.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1332c534a8a44623b2e5cc943a0b790e157400/4a/ee6a768e/Texture2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1332c534a8a44623b2e5cc943a0b790e157400/81/fff90215/Texture.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/01_Scripts/PaintManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -21,16 +27,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.2.19f1\Editor\Unity.exe" />
@@ -71,6 +77,8 @@
       <updated>1666736418624</updated>
       <workItem from="1666736424795" duration="604000" />
       <workItem from="1666814762759" duration="4658000" />
+      <workItem from="1666881106260" duration="1000" />
+      <workItem from="1666885969023" duration="8717000" />
     </task>
     <servers />
   </component>
