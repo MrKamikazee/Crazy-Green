@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Floor
   - Cameras
+  - Objetos
   layers:
   - Default
   - TransparentFX

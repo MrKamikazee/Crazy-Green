@@ -14,6 +14,14 @@ public class ShooterSistem : MonoBehaviour
 
     private void Update()
     {
+        Shoot();
+    }
+
+    private void Shoot()
+    {
+        if (GameManager.GameManager_Script.Pausa)
+            return;
+        
         if (Input.GetButton("Fire1"))
         {
             GameObject NewBullet= Instantiate(Bullet, Cannon.transform.position, Quaternion.identity) as GameObject;
