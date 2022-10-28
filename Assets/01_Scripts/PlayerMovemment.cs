@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class PlayerMovemment : MonoBehaviour
 {
     private CharacterController Player_CC;
-    private Vector2 Speed = new Vector2(10,20);
+    private Vector2 Speed = new Vector2(10,5);
     private GameObject Piso;
     private bool IsGrounded;
     private Vector3 Direccion = new Vector3();
@@ -16,6 +16,8 @@ public class PlayerMovemment : MonoBehaviour
     private float yRotation = 0;
     private float MouseX;
     private float MouseY;
+
+    private GameObject[] asd;
 
     [SerializeField]
     private GameObject Cameras_TP;
@@ -64,7 +66,7 @@ public class PlayerMovemment : MonoBehaviour
             IsGrounded = false;
         }
         else
-            Direccion.y -= .3f;
+            Direccion.y -= 10f * Time.deltaTime;
 
         if (Direccion.y > 20)
             Direccion.y = 20;
