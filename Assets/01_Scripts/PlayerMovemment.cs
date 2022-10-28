@@ -32,7 +32,6 @@ public class PlayerMovemment : MonoBehaviour
         Piso = GameObject.FindWithTag("Floor");
         Cameras_TP = GameObject.FindWithTag("Cameras");
         Cameras_TP.SetActive(false);
-        Cursor.lockState = CursorLockMode.Locked; //Bloquea el cursor dentro de los limites del juego
     }
 
     private void Update()
@@ -44,6 +43,9 @@ public class PlayerMovemment : MonoBehaviour
 
     private void PlayerMove()
     {
+        if (GameManager.GameManager_Script.Pausa)
+            return;
+        
         Direccion.z = Input.GetAxis("Horizontal") * Speed.x;
         Direccion.x = Input.GetAxis("Vertical") * Speed.x;
         
@@ -88,8 +90,11 @@ public class PlayerMovemment : MonoBehaviour
 
     private void CameraController()
     {
-        MouseX = Input.GetAxis("Mouse X") * GameManager.GameManager_Script.Sensivility * Time.deltaTime * 100;
-        MouseY = Input.GetAxis("Mouse Y") * GameManager.GameManager_Script.Sensivility * Time.deltaTime * 100;
+        if (GameManager.GameManager_Script.Pausa)
+            return;
+        
+        MouseX = Input.GetAxis("Mouse X") * (GameManager.GameManager_Script.Sensivility * 30) * Time.deltaTime * 100;
+        MouseY = Input.GetAxis("Mouse Y") * (GameManager.GameManager_Script.Sensivility * 30) * Time.deltaTime * 100;
         yRotation -= MouseY;
         xRotation += MouseX;
         yRotation = Mathf.Clamp(yRotation, -90, 90);
@@ -99,6 +104,9 @@ public class PlayerMovemment : MonoBehaviour
 
     private void ChangeCamera()
     {
+        if (GameManager.GameManager_Script.Pausa)
+            return;
+        
         if (Input.GetKeyUp(KeyCode.C) && Cameras_TP.activeSelf)
             Cameras_TP.SetActive(false);
         else if(Input.GetKeyUp(KeyCode.C) && !Cameras_TP.activeSelf)
