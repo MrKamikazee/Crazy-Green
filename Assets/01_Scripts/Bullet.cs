@@ -5,16 +5,16 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
-        if (other.CompareTag("Floor"))
+        if (collision.gameObject.CompareTag("Floor"))
         {
-            Destroy(gameObject);
+            Destroy(gameObject,.05f);
         }
     }
 
     private void Update()
     {
-        Destroy(gameObject,5f);
+        Destroy(gameObject,3f);
     }
 }

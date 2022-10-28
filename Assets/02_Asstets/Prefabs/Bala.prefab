@@ -95,7 +95,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3294537864032990678}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -116,8 +116,8 @@ MonoBehaviour:
     brushTexture: {fileID: 2800000, guid: b8702b5a8624a114f82a6d09bc3ce746, type: 3}
     brushNormalTexture: {fileID: 2800000, guid: 998ab09223d9de948aec97fe12457f4a, type: 3}
     brushHeightTexture: {fileID: 0}
-    brushScale: 0.5
-    rotateAngle: 0
+    brushScale: 0.03
+    rotateAngle: 32
     brushNormalBlend: 0.1
     brushHeightBlend: 0
     brushColor: {r: 0, g: 1, b: 0.083981514, a: 1}
