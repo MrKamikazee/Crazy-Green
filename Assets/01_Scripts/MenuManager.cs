@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class MenuManager : MonoBehaviour
 {
@@ -14,6 +15,11 @@ public class MenuManager : MonoBehaviour
     public GameObject[] WASD = new GameObject[4];
     public GameObject[] Flechas = new GameObject[4];
     public GameObject LetraC;
+    public GameObject LetraEsc;
+    public GameObject[] Mouse_Idle = new GameObject[2];
+    public GameObject[] Mouse_Moving = new GameObject[2];
+
+    public GameObject Video1, Video2;
     
     public GameObject LoadGame_Panel;
 
@@ -94,7 +100,7 @@ public class MenuManager : MonoBehaviour
             .Join(Flechas[1].GetComponent<Image>().DOFade(0, .5f))
             .Join(Flechas[2].GetComponent<Image>().DOFade(0, .5f))
             .Join(Flechas[3].GetComponent<Image>().DOFade(0, .5f))
-            .Append(LetraC.GetComponent<Image>().DOFade(255, .5f))
+            .Append(LetraC.GetComponent<Image>().DOFade(1, .5f))
  
             .AppendInterval(.4f)
             .Append(LetraC.GetComponent<Image>().DOColor(Color.gray, 1f))
@@ -109,6 +115,63 @@ public class MenuManager : MonoBehaviour
             .Append(LetraC.GetComponent<Image>().DOColor(Color.white, 1f))
             
             .AppendInterval(1f)
+            .OnComplete(Tutorial2);
+    }
+
+    private void Tutorial2()
+    {
+        Sequence Tutorial2 = DOTween.Sequence();
+        Tutorial2.Append(Video1.GetComponent<RawImage>().DOFade(0, 1f))
+            .Join(LetraC.GetComponent<Image>().DOFade(0, 1f))
+            .AppendCallback(Video2.GetComponent<VideoPlayer>().Play)
+            .Append(Video2.GetComponent<RawImage>().DOFade(1, 1f))
+            .Join(LetraEsc.GetComponent<Image>().DOFade(1, 1f))
+            .Join(Mouse_Idle[0].GetComponent<Image>().DOFade(1, 1f))
+            .Join(Mouse_Moving[0].GetComponent<Image>().DOFade(1, 1f))
+
+            .Append(LetraEsc.GetComponent<Image>().DOColor(Color.gray, .5f))
+            .Append(LetraEsc.GetComponent<Image>().DOColor(Color.white, .5f))
+
+            .AppendInterval(3.5f)
+            .AppendCallback(() => MouseClick("On"))
+            .AppendInterval(.5f)
+            .AppendCallback(() => MouseClick("Off"))
+
+            .AppendInterval(2f)
+            .AppendCallback(() => MouseClick("On"))
+            .AppendInterval(.8f)
+            .AppendCallback(() => MouseClick("Off"))
+            .AppendInterval(1.4f)
+            .AppendCallback(() => MouseClick("On"))
+            .AppendInterval(1f)
+            .AppendCallback(() => MouseClick("Off"))
+
+            .AppendInterval(1.5f)
+            .AppendCallback(() => MouseMove("On"))
+            .AppendInterval(5.5f)
+            .AppendCallback(() => MouseMove("Off"))
+            
+            .AppendInterval(1f)
+            .Append(Video2.GetComponent<RawImage>().DOFade(0, 1f))
+            .Join(LetraEsc.GetComponent<Image>().DOFade(0, 1f))
+            .Join(Mouse_Idle[0].GetComponent<Image>().DOFade(0, 1f))
+            .Join(Mouse_Moving[0].GetComponent<Image>().DOFade(0, 1f))
             .OnComplete(StartLoadGame);
+    }
+
+    private void MouseClick(string S)
+    {
+        if (S == "On")
+            Mouse_Idle[1].SetActive(true);
+        else if (S == "Off")
+            Mouse_Idle[1].SetActive(false);
+    }
+
+    private void MouseMove(string S)
+    {
+        if (S == "On")
+            Mouse_Moving[1].SetActive(true);
+        else if (S == "Off")
+            Mouse_Moving[1].SetActive(false);
     }
 }

@@ -6,16 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="21fcd78e-3460-4934-b91e-925b855f6292" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam 2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam 2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00_Scenes/Sala de pruebas.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00_Scenes/Sala de pruebas.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_Scripts/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scripts/Bullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_Scripts/HudManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scripts/HudManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_Scripts/HudManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scripts/HudManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_Scripts/PlayerMovemment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scripts/PlayerMovemment.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_Scripts/ShooterSistem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scripts/ShooterSistem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/Prefabs/Bala.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Asstets/Prefabs/Bala.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Base_Color.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Base_Color.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00_Scenes/Menu Inicial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00_Scenes/Menu Inicial.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01_Scripts/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scripts/MenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/Hud_Materials/Botones Tutorial.ai" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Asstets/Hud_Materials/Botones Tutorial.ai" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/Hud_Materials/VideoRender_Texture.renderTexture" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/Hud_Materials/VideoRender_Texture.renderTexture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/Materiales_Provicionales/Provicional 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Asstets/Materiales_Provicionales/Provicional 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/Materiales_Provicionales/Sample.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Asstets/Materiales_Provicionales/Sample.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,7 @@
       <workItem from="1666881106260" duration="1000" />
       <workItem from="1666885969023" duration="8717000" />
       <workItem from="1666961833655" duration="8126000" />
-      <workItem from="1666980481035" duration="5463000" />
+      <workItem from="1666980481035" duration="12463000" />
     </task>
     <servers />
   </component>
