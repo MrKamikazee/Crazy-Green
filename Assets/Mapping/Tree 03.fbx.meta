@@ -1,12 +1,14 @@
 fileFormatVersion: 2
-guid: 0dbf6435be3c8d3419897a0739a09a99
+guid: 601efabb4006cf649b06aab24222512c
 ModelImporter:
   serializedVersion: 21202
-  internalIDToNameTable:
+  internalIDToNameTable: []
+  externalObjects:
   - first:
-      74: -623603649343465320
-    second: Scene
-  externalObjects: {}
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 5b115aa5ceda7094ebcc54f1f3ba328d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -40,7 +42,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
