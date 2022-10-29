@@ -80,7 +80,7 @@ public class PlayerMovemment : MonoBehaviour
     {
         RaycastHit hit;
         
-        Debug.DrawRay(transform.localPosition, Vector3.down * 1.2f, Color.red);
+        Debug.DrawRay(transform.localPosition, Vector3.down * .2f, Color.red);
 
         if (Physics.Raycast(transform.localPosition, Vector3.down, out hit, 1.2f))
         {

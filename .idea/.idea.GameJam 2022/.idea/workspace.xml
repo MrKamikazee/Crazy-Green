@@ -6,14 +6,72 @@
   <component name="ChangeListManager">
     <list default="true" id="21fcd78e-3460-4934-b91e-925b855f6292" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam 2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam 2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00_Scenes/Menu Inicial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00_Scenes/Menu Inicial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_Scripts/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scripts/MenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/Hud_Materials/Botones Tutorial.ai" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Asstets/Hud_Materials/Botones Tutorial.ai" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/Hud_Materials/VideoRender_Texture.renderTexture" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/Hud_Materials/VideoRender_Texture.renderTexture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00_Scenes/Escena Principal.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00_Scenes/Escena Principal.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00_Scenes/Nivel Principal.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00_Scenes/Nivel Principal.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01_Scripts/PlayerMovemment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scripts/PlayerMovemment.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/Materiales_Provicionales/Provicional 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Asstets/Materiales_Provicionales/Provicional 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/Materiales_Provicionales/Sample.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Asstets/Materiales_Provicionales/Sample.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/Prefabs/Bala.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/Prefabs/Bala.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/TerrenoModelo/terrenovioleta.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Asstets/TerrenoModelo/terrenovioleta.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelosconanimacion/green.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelosconanimacion/green.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelosconanimacion/green.blend1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelosconanimacion/green.blend1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelosconanimacion/green.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelosconanimacion/green.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelosconanimacion/green03.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelosconanimacion/green03.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelosconanimacion/green04.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelosconanimacion/green04.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelosconanimacion/greenblend03.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelosconanimacion/greenblend03.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelosconanimacion/greenblend04.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelosconanimacion/greenblend04.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/3linefences.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/3linefences.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/6linefences.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/6linefences.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/Tree 01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/Tree 01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/Tree 02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/Tree 02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/Tree 03.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/Tree 03.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/fence.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/fence.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/hongo.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/hongo.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/rock01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/rock01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/rock02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/rock02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/rock03.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/rock03.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/rock04.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/rock04.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/roctexture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/roctexture.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/señal.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/señal.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/tree04.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/tree04.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/tree05.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/tree05.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/tree06.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/tree06.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/tree4 02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/tree4 02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/tree5 02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/tree5 02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/tree6 02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Asstets/modelossinanimacion/tree6 02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mapping/Wood Material 02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mapping/Wood Material 02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mapping/WoodMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mapping/WoodMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mapping/cartel.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mapping/cartel.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mapping/treetexturemat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mapping/treetexturemat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +147,7 @@
       <workItem from="1666885969023" duration="8717000" />
       <workItem from="1666961833655" duration="8126000" />
       <workItem from="1666980481035" duration="12463000" />
+      <workItem from="1667069743405" duration="650000" />
     </task>
     <servers />
   </component>

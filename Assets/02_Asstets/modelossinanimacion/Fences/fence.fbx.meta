@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 00d24b8cade037a48ba027404440a6a1
+guid: ce5d994e428e0fd43af8040d7ce35709
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
@@ -7,13 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Pasto_MAT
-    second: {fileID: 2100000, guid: b3243d92c0f389a4a978d7cd8b31e328, type: 2}
+      name: Material.001
+    second: {fileID: 2100000, guid: 97fb44e5e63f9d24e91cef59bd298201, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Tierra_MAT
-    second: {fileID: 2100000, guid: 54c24511920809049998af1604a2af51, type: 2}
+      name: Material.002
+    second: {fileID: 2100000, guid: a2288aefd67b27d43b5fc6806304e482, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -47,7 +47,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1

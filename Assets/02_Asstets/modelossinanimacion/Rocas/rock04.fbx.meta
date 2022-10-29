@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 00d24b8cade037a48ba027404440a6a1
+guid: 3e0e2361554d40c478f1c259ec85fe9d
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
@@ -7,13 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Pasto_MAT
-    second: {fileID: 2100000, guid: b3243d92c0f389a4a978d7cd8b31e328, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Tierra_MAT
-    second: {fileID: 2100000, guid: 54c24511920809049998af1604a2af51, type: 2}
+      name: Material.007
+    second: {fileID: 2100000, guid: 9937ce3c9eb80cb4b9b81ca66aa00e30, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
