@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3203,11 +3203,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Mat\xEDas Pino: Documentaci\xF3n y m\xFAsica.\nMichelle Maldonado: Boceteo,
-    arte 2D y arte 3D.\nBrandon Hanson: Documentaci\xF3n y m\xFAsica.\nRoberto Porra:
-    Arte 3D\nMart\xEDn Rom\xE1n: Programaci\xF3n e implementaci\xF3n"
+    arte 2D y arte 3D.\nBrandon Hanson: Documentaci\xF3n, dise\xF1o de nivel y m\xFAsica.\nRoberto
+    Porra: Arte 3D\nMart\xEDn Rom\xE1n: Programaci\xF3n e implementaci\xF3n\n\n\nAssets:
+    DOTween, InkPainter, Simple Low Poly Nature Pack, RPG Ploy Pack, Low Poly Mini
+    Village Free y Low Poly Park"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 879123e4deb46ce4ba2099bd4bce3abc, type: 2}
+  m_sharedMaterial: {fileID: -7313256200442463299, guid: 879123e4deb46ce4ba2099bd4bce3abc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3231,7 +3233,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34.7
+  m_fontSize: 44.55
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3239,7 +3241,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3267,7 +3269,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -193.6819, y: 0, z: -208.71735, w: -281.61276}
+  m_margin: {x: -302.11688, y: -211.71297, z: -317.5266, w: -281.61276}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
